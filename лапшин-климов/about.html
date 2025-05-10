@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MebelTop - О нас</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .hero-about {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('about-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 400px;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 30px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #0d6efd;
+        }
+        .team-card {
+            transition: all 0.3s ease;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .stat-item {
+            padding: 30px 15px;
+            text-align: center;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        .stat-item:hover {
+            background: rgba(255,255,255,0.2);
+            transform: scale(1.05);
+        }
+        .nav-link.active {
+            font-weight: 500;
+            color: #0d6efd !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="main.html">MebelTop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Профиль</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Корзина</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">О нас</a></li>
+                </ul>
+                <div id="authSection">
+                    <a href="login.html" class="btn btn-outline-secondary me-2">Войти</a>
+                    <a href="register.html" class="btn btn-primary">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основное содержимое -->
+    <main>
+        <!-- Герой секция -->
+        <section class="hero-about text-white d-flex align-items-center">
+            <div class="container text-center py-5">
+                <h1 class="display-3 fw-bold mb-4">MebelTop - мебель для жизни</h1>
+                <p class="lead fs-4">Создаём уют в вашем доме с 2010 года</p>
+            </div>
+        </section>
+
+        <!-- О компании -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h2 class="display-5 fw-bold mb-4">Наша философия</h2>
+                        <p class="lead">Качество, комфорт и стиль - три кита, на которых стоит наша компания.</p>
+                        <p>MebelTop - это не просто мебельная компания, это команда энтузиастов, которые верят, что красивая и функциональная мебель может изменить качество жизни. Мы тщательно отбираем материалы, продумываем каждую деталь и следим за последними тенденциями в дизайне интерьеров.</p>
+                        <p>Наша миссия - сделать качественную дизайнерскую мебель доступной для каждого. Мы работаем напрямую с производителями, что позволяет нам предлагать лучшие цены без потери качества.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="about-philosophy.jpg" alt="Наша философия" class="img-fluid rounded-3 shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- История компании -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold mb-5">Наша история</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4 class="fw-bold">2010 - Начало пути</h4>
+                        <p>Основание компании как небольшого магазина мебели в Москве. Первые клиенты и первые успехи.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4 class="fw-bold">2012 - Первое производство</h4>
+                        <p>Запуск собственной производственной линии корпусной мебели. Разработка первых уникальных моделей.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4 class="fw-bold">2015 - Национальный масштаб</h4>
+                        <p>Открытие 15 филиалов в крупнейших городах России. Выход на федеральный уровень.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4 class="fw-bold">2018 - Европейское признание</h4>
+                        <p>Получение международного сертификата качества. Начало экспорта в страны Европы.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4 class="fw-bold">2023 - Лидер рынка</h4>
+                        <p>Более 100 салонов по всей стране. Годовой оборот превысил 5 млрд рублей.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Наши преимущества -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold mb-5">Почему выбирают нас</h2>
+                
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-award fs-1 text-primary mb-3"></i>
+                                <h4 class="fw-bold">Гарантия 5 лет</h4>
+                                <p>Самая длительная гарантия на мебель в России. Мы уверены в качестве наших изделий.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-tree fs-1 text-primary mb-3"></i>
+                                <h4 class="fw-bold">Экологичные материалы</h4>
+                                <p>Используем только сертифицированную древесину и безопасные материалы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-people fs-1 text-primary mb-3"></i>
+                                <h4 class="fw-bold">500+ сотрудников</h4>
+                                <p>Профессиональная команда дизайнеров, инженеров и мастеров.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Наша команда -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold mb-5">Ключевые сотрудники</h2>
+                
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card team-card h-100">
+                            <img src="team-1.jpg" class="card-img-top" alt="Иван Петров">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Иван Петров</h5>
+                                <p class="text-muted">Основатель и CEO</p>
+                                <p class="card-text">Создал компанию с нуля. Более 20 лет опыта в мебельной индустрии.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card team-card h-100">
+                            <img src="team-2.jpg" class="card-img-top" alt="Ольга Смирнова">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Ольга Смирнова</h5>
+                                <p class="text-muted">Главный дизайнер</p>
+                                <p class="card-text">Автор более 100 успешных коллекций. Выпускница Миланской школы дизайна.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card team-card h-100">
+                            <img src="team-3.jpg" class="card-img-top" alt="Алексей Волков">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Алексей Волков</h5>
+                                <p class="text-muted">Технический директор</p>
+                                <p class="card-text">Отвечает за качество производства. Внедрил 15 инновационных технологий.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Статистика -->
+        <section class="bg-primary text-white py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-item">
+                            <h3 class="display-4 fw-bold">12+</h3>
+                            <p>Лет на рынке</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-item">
+                            <h3 class="display-4 fw-bold">120+</h3>
+                            <p>Салонов по стране</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-item">
+                            <h3 class="display-4 fw-bold">5000+</h3>
+                            <p>Моделей мебели</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-item">
+                            <h3 class="display-4 fw-bold">1M+</h3>
+                            <p>Довольных клиентов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Сертификаты -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold mb-5">Наши сертификаты</h2>
+                
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 col-6">
+                        <div class="card border-0 shadow-sm">
+                            <img src="cert-1.jpg" class="card-img-top" alt="Сертификат качества">
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold">ISO 9001</h5>
+                                <p>Международный стандарт качества</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-6">
+                        <div class="card border-0 shadow-sm">
+                            <img src="cert-2.png" class="card-img-top" alt="Экологический сертификат">
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold">FSC</h5>
+                                <p>Ответственное лесопользование</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>MebelTop</h5>
+                    <p>Лидер на рынке качественной мебели с 2010 года. Создаём уют в вашем доме.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Контакты</h5>
+                    <p>г. Москва, ул. Мебельная, 15<br>
+                    +7 (999) 123-45-67<br>
+                    info@mebeltop.ru</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Подписаться на рассылку (Скоро)</h5>
+                    <p>Будьте в курсе новинок и акций:</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Ваш email">
+                        <button class="btn btn-primary" type="button">OK</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 MebelTop. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

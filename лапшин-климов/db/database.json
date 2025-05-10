@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Угловой диван «Люкс»",
+      "category": "Диваны",
+      "price": 89990,
+      "description": "Кожаный диван с механизмом трансформации",
+      "image": "images/sofa.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Обеденный стол «Милан»",
+      "category": "Столы",
+      "price": 34990,
+      "description": "Стол из массива дуба со стеклянной столешницей",
+      "image": "images/table.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Кресло «Премиум»",
+      "category": "Кресла",
+      "price": 25990,
+      "description": "Эргономичное кресло с подставкой для ног",
+      "image": "images/armchair.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Шкаф-купе «Гармония»",
+      "category": "Шкафы",
+      "price": 129990,
+      "description": "4-дверный шкаф с зеркальными панелями",
+      "image": "images/wardrobe.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Кровать «Император»",
+      "category": "Кровати",
+      "price": 78990,
+      "description": "Двуспальная кровать с ортопедическим основанием",
+      "image": "images/bed.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Комод «Винтаж»",
+      "category": "Комоды",
+      "price": 22990,
+      "description": "3-ящичный комод с коваными ручками",
+      "image": "images/chest.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Стул «Лофт»",
+      "category": "Стулья",
+      "price": 8990,
+      "description": "Металлический стул с кожаным сиденьем",
+      "image": "images/chair.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Тумба ТВ «Модерн»",
+      "category": "Тумбы",
+      "price": 18990,
+      "description": "Тумба для телевизора.",
+      "image": "images/tv-stand.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Стеллаж «Променад»",
+      "category": "Стеллажи",
+      "price": 45990,
+      "description": "5-секционный стеллаж из металла и дерева",
+      "image": "images/shelf.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Пуф «Куб»",
+      "category": "Пуфы",
+      "price": 5990,
+      "description": "Кожаный пуф-трансформер с отделением для хранения",
+      "image": "images/ottoman.jpg"
+    }
+  ]
+}
